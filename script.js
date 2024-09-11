@@ -43,8 +43,6 @@ function getRandomIndex(probabilities) {
   return probabilities.length - 1;
 }
 
-// PLAYSTYLES>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
 
 function makeMove () {
   document.getElementById("evaluation").textContent = "";
